@@ -51,7 +51,7 @@ export default function Converter() {
 
   return (
     <div className="prose mx-6 w-full max-w-full py-10 md:mx-0">
-      <h1 className="text-xl font-semibold">PX to REM Converter</h1>
+      <h1 className="text-xl font-semibold">{selectedUnit === 'px' ? 'PX to REM Converter' : 'REM to PX Converter'}</h1>
 
       <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
         {selectedUnit === 'px' ? (
