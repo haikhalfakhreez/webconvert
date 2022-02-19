@@ -4,7 +4,7 @@ import Converter from 'components/converter'
 const WEBSITE_TITLE = 'Webconvert'
 const WEBSITE_DESCRIPTION = 'PX to REM Converter'
 const WEBSITE_OG_IMAGE_PATH = '/webconvert.png'
-const WEBSITE_URL = 'https://haikhalfakhreez.github.io/webconvert/'
+const WEBSITE_URL = 'https://webconvert.netlify.app/'
 
 export default function Home() {
   return (
