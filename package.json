@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -20,6 +20,7 @@
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.2",
     "autoprefixer": "^10.4.2",
+    "cssnano": "^5.0.17",
     "eslint": "8.9.0",
     "eslint-config-next": "12.1.0",
     "postcss": "^8.4.6",
