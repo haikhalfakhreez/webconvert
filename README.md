@@ -1,5 +1,5 @@
 # Webconvert
 
-Convert px to rem, or rem to px!
+Convert PX to REM, or REM to PX!
 
 Build with [Next.js](https://nextjs.org/)
